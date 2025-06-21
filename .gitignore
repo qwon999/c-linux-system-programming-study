@@ -1,0 +1,23 @@
+# Created by Gemini for a C/C++ CLion project
+
+# CLion-specific files
+.idea/
+cmake-build-*/
+
+# Build artifacts
+*.o
+*.i
+*.s
+
+# Executables
+# To ignore all files without an extension
+# (This will ignore executables on Linux/macOS)
+*
+!*.*
+
+# If you want to be more specific, you can list them
+# main_executable
+# bj*
+
+# Other
+.DS_Store
