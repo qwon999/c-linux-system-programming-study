@@ -17,7 +17,7 @@ C언어 및 리눅스 시스템 프로그래밍 학습과 관련 코드, 프로�
 1.  **Git Repository 복제 (Clone)**
 
     ```bash
-    git clone https://github.com/YourUsername/c-linux-system-programming-study.git
+    git clone [https://github.com/YourUsername/c-linux-system-programming-study.git](https://github.com/YourUsername/c-linux-system-programming-study.git)
     cd c-linux-system-programming-study
     ```
 
@@ -48,10 +48,16 @@ C언어 및 리눅스 시스템 프로그래밍 학습과 관련 코드, 프로�
     * 설정 완료 후, CLion이 자동으로 `CMakeLists.txt` 파일을 읽어 프로젝트를 로드함.
     * 우측 상단 실행 구성(Configuration) 확인 후, 초록색 실행(`▶︎`) 버튼을 눌러 코드 빌드 및 실행.
 
-## 📖 폴더 구조 및 학습 내용
+## 📖 학습 내용 및 바로가기
 
-* **`week1_file_io/`**: 파일 I/O 시스템 콜 관련 학습 내용 및 코드
-* **`week2_process_control/`**: 프로세스 생성 및 제어 관련 학습 내용 및 코드
+* **[Day1: C언어의 심장 - 메모리와 포인터](./Day1_pointer_memory/README.md)**
+    * 주요 개념: 컴파일 과정, 메모리 구조, 포인터, 동적 할당
+    * 구현 코드: `memory_layout.c`, `swap_test.c`
+
+* **[Day2: 포인터와 배열, 파일 시스템의 문](./Day2_pointer_array_fileio/README.md)**
+    * 주요 개념: 포인터와 배열의 관계, 파일 디스크립터, 시스템 콜(open, read, write, close)
+    * 구현 코드: `my_string_test.c`, `my_cat.c`, `my_cp.c`
+
 * *(학습 진행에 따라 계속 추가 예정)*
 
 ---

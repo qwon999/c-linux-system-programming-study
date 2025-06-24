@@ -38,12 +38,19 @@ if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/PS")
 endif()
 
 
+
+
 # "hello_world" 라는 이름의 실행 파일을 main.c 소스 파일로부터 생성
 # 나중에 다른 파일을 만들면 이 부분을 추가하거나 수정하면 됩니다.
 add_executable(hello_world main.c)
 
 # 1주차 실습 과제를 위한 실행 파일들을 정의.
 # 각 add_executable 줄은 "실행파일_이름" "소스파일.c" 형식.
-add_executable(hello_world Day1_pointer_memory/main.c)
+add_executable(hello_world_day1 Day1_pointer_memory/main.c)
 add_executable(memory_layout Day1_pointer_memory/memory_layout.c)
 add_executable(swap_test Day1_pointer_memory/swap_test.c)
+
+# 2주차 실습 과제를 위한 실행 파일들을 정의.
+add_executable(my_string_test Day2_pointer_array_fileio/my_string_test.c)
+add_executable(my_cat Day2_pointer_array_fileio/my_cat.c)
+add_executable(my_cp Day2_pointer_array_fileio/my_cp.c)
