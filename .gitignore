@@ -1,17 +1,15 @@
-# JetBrains CLion IDE
+# JetBrains CLion IDE specific files
+# CLion의 프로젝트 설정 및 캐시 폴더를 무시합니다.
 .idea/
+
+# CLion Build output directory
+# 모든 빌드 결과물(실행 파일, 오브젝트 파일 등)이 담기는 폴더를 통째로 무시합니다.
+# 이것이 가장 안전하고 확실한 방법입니다.
 cmake-build-*/
 
-# macOS system files
+# macOS specific system files
 .DS_Store
 
-# Build artifacts
-*.o
-*.i
-*.s
-
-# Executables
-# (This will ignore most executables on Linux/macOS)
-main_executable
-my_*
-bj*
+# Other temporary files
+*.swp
+*~
