@@ -54,3 +54,10 @@ add_executable(swap_test Day1_pointer_memory/swap_test.c)
 add_executable(my_string_test Day2_pointer_array_fileio/my_string_test.c)
 add_executable(my_cat Day2_pointer_array_fileio/my_cat.c)
 add_executable(my_cp Day2_pointer_array_fileio/my_cp.c)
+
+# 3주차 실습 과제를 위한 실행 파일들을 정의.
+add_executable(fork_test Day3_process_management/fork_test.c)
+add_executable(exec_test Day3_process_management/exec_test.c)
+add_executable(wait_test Day3_process_management/wait_test.c)
+add_executable(mini_shell Day3_process_management/mini_shell.c)
+
