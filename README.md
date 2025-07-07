@@ -62,6 +62,10 @@ C언어 및 리눅스 시스템 프로그래밍 학습과 관련 코드, 프로�
     * 주요 개념: 프로세스의 생명주기(fork, exec, wait)
     * 구현 코드: `fork_test.c`, `exec_text.c`, `wait_test.c`,`mini_shell.c`
 
+* **[Day4: 스레드와 경쟁 조건](./Day4_thread_race_condition/README.md)**
+    * 주요 개념: 스레드의 생명주기, 스레드의 경쟁조건
+    * 구현 코드: `pthread.c`, `race_condition_test.c`
+
 * *(학습 진행에 따라 계속 추가 예정)*
 
 ---

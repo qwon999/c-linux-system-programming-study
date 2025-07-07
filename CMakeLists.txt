@@ -61,3 +61,14 @@ add_executable(exec_test Day3_process_management/exec_test.c)
 add_executable(wait_test Day3_process_management/wait_test.c)
 add_executable(mini_shell Day3_process_management/mini_shell.c)
 
+# 4주차 실습 과제를 위한 실행 파일들을 정의.
+add_executable(pthread_test Day4_thread_race_condition/pthread_test.c)
+# pthread 라이브러리를 링크.
+target_link_libraries(pthread_test pthread)
+
+add_executable(race_condition_test Day4_thread_race_condition/race_condition_test.c)
+# pthread 라이브러리를 링크합니다.
+target_link_libraries(race_condition_test pthread)
+
+
+
