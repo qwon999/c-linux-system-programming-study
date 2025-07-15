@@ -70,5 +70,11 @@ add_executable(race_condition_test Day4_thread_race_condition/race_condition_tes
 # pthread 라이브러리를 링크합니다.
 target_link_libraries(race_condition_test pthread)
 
+# 5주차 실습 과제를 위한 실행 파일들을 정의.
+add_executable(mutex_test Day5_synchronization/mutex_test.c)
+target_link_libraries(mutex_test pthread)
+
+add_executable(producer_consumer Day5_synchronization/producer_consumer.c)
+target_link_libraries(producer_consumer pthread)
 
 
