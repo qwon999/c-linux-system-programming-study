@@ -4,9 +4,9 @@
 #include <pthread.h>
 #include <time.h>
 
-#define BUFFER_SIZE 5       // 공유 버퍼의 크기
-#define NUM_PRODUCERS 2     // 생산자 스레드의 수
-#define NUM_CONSUMERS 2     // 소비자 스레드의 수
+#define BUFFER_SIZE 10       // 공유 버퍼의 크기
+#define NUM_PRODUCERS 5     // 생산자 스레드의 수
+#define NUM_CONSUMERS 5     // 소비자 스레드의 수
 #define ITEMS_TO_PRODUCE 10 // 각 생산자가 만들 아이템의 수
 
 // --- 공유 자원 ---
